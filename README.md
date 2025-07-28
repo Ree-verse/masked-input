@@ -1,7 +1,7 @@
 <h1 align="center"><code>masked-input</code> - Cross-Platform Password Input with Various Masking Options</h1>
 
 <p align="center">
-  <img src="assets/masked-input.svg" alt="masked-input logo" width="350">
+  <img src="https://raw.githubusercontent.com/ree-verse/masked-input/main/assets/masked-input.svg" alt="masked-input logo" width="350">
 </p>
 
 <p align="center">
