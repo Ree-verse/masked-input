@@ -1,0 +1,24 @@
+# IDE & editors
+.vscode
+__pycache__/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache/
+coverage.xml
+*.cover
+
+# Python virtual environments
+.env
+.venv
+env/
+venv/
+ENV/

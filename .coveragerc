@@ -1,0 +1,33 @@
+# .coveragerc - Configuration for coverage.py
+# To run coverage tests, run `coverage run tests/test_masked_input.py` then `coverage html`. The report will be in htmlcov/index.html
+
+[run]
+# Defines the source directory to measure
+source = src/masked_input
+# Includes branch coverage
+branch = True
+
+[report]
+# Regex for lines to exclude from consideration
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+
+    # Don't complain if tests don't hit defensive assertion code:
+    raise AssertionError
+    raise NotImplementedError
+
+    # Don't complain if non-runnable code isn't run:
+    if 0:
+    if __name__ == "__main__":
+
+# Don't raise errors if some files are missing during reporting
+ignore_errors = True
+
+# Files or paths to omit from the report
+omit =
+    src/masked_input/__main__.py
+
+[html]
+# Output directory for the HTML coverage report
+directory = htmlcov

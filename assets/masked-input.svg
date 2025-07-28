@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Background and logo border -->
+  <rect x="50" y="50" width="200" height="200" rx="25" ry="25" fill="#2b5b84" stroke="#1a3c5a" stroke-width="8"/>
+
+  <!-- Text field frame -->
+  <rect x="75" y="120" width="150" height="40" rx="8" ry="8" fill="#f0f0f0" stroke="#888888" stroke-width="2"/>
+
+  <!-- Masking dots -->
+  <circle cx="95" cy="140" r="5" fill="#333333"/>
+  <circle cx="115" cy="140" r="5" fill="#333333"/>
+  <circle cx="135" cy="140" r="5" fill="#333333"/>
+  <circle cx="155" cy="140" r="5" fill="#333333"/>
+  <circle cx="175" cy="140" r="5" fill="#333333"/>
+
+  <!-- Blinking cursor -->
+  <rect x="185" y="125" width="2" height="30" fill="#333333">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Padlock -->
+  <g transform="translate(220, 200) scale(0.5)">
+    <!-- Padlock body -->
+    <rect x="-30" y="-40" width="60" height="50" rx="10" ry="10" fill="#f5d742" stroke="#d4b52c" stroke-width="4"/>
+
+    <!-- Padlock shackle -->
+    <path d="M -20,-40 C -20,-65 20,-65 20,-40" fill="none" stroke="#f5d742" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Keyhole -->
+    <circle cx="0" cy="-15" r="8" fill="#2b5b84"/>
+    <rect x="-3" y="-15" width="6" height="15" fill="#2b5b84"/>
+  </g>
+</svg>
