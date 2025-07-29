@@ -6,7 +6,7 @@ License: MIT - See LICENSE file for details
 """
 
 __all__ = ['masked_input']
-__version__ = '1.0.0'
+__version__ = '1.0.2'
 __author__ = 'Ree-verse'
 __license__ = 'MIT'
 __doc__ = 'Cross-platform library to read password input with various masking options.'
